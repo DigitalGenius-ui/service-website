@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+@import url(./pages-part/header.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --socialBg : #f2ebcf;
+    --bannerBg : #f3f3e997;
+    --blackColor : #000;
+    --whiteColor : #fff;
+    --socialHover : rgba(0, 0, 0, 0.404);
+    --btnBg : #d8c056;
+    --supportBg : #cbdfe0;
+    --reviewBg : #f2ebcf;
+    --subscribeBg : #84b9bd;
+}
