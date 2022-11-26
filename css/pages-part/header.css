@@ -92,6 +92,28 @@
     color: var(--blackColor);
     text-decoration: none;
     text-transform: uppercase;
+    position: relative;
+}
+
+.nav__list li a::before{
+    content: "";
+    position: absolute;
+    bottom: -0.3rem;
+    left: 0;
+    right: 0;
+    background-color: var(--blackColor);
+    height: 1px;
+    transform: scale(0);
+    transform-origin: left;
+    transition: 400ms ease-in-out;
+}
+
+.nav__list li a:hover{
+    color: var(--socialHover);
+}
+
+.nav__list li a:hover::before{
+    transform: scale(1);
 }
 
 /* banner part  */
@@ -116,7 +138,7 @@
     margin: 12rem 0 0 5rem;
 }
 
-.banner__text span, h1{
+.banner__text span, .banner__text h1{
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 2px;
@@ -134,11 +156,7 @@
     margin: 0 auto;
 }
 
-.banner__text .banner__btn{
-    position: absolute;
-    bottom: -1rem;
-    left: 50%;
-    transform: translate(-50%, 0%);
+.btn__style{
     padding: 0.6rem 1.5rem; 
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -146,6 +164,17 @@
     background-color: var(--btnBg);
     border: none;
     transition: 400ms ease-in-out;
+}
+
+.btn__style:hover{
+    transform: translateY(-10px)
+}
+
+.banner__text .banner__btn{
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
 
 .banner__text .banner__btn:hover{
