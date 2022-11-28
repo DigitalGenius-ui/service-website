@@ -7,6 +7,7 @@ footer .foot__social{
 .foot__social .social__icons .arrow__top{
     display: flex;
     flex-direction: column;
+    align-items: center;
     line-height: 10px;
     position: absolute;
     top: 0;
@@ -42,16 +43,24 @@ footer .foot__social{
     background-color: var(--copyRight);
     text-align: center;
     padding: 0.5rem 0;
-    font-size: 0.9rem;
     letter-spacing: 1px;
 }
 
 .copyright p{
     color: var(--darkBlack);
+    font-size: 0.9rem;
 }
 
 @media(max-width:680px){
     .foot__social .social__icons .arrow__top{
         right: 5%;
+    }
+
+    .footer .copyright {
+        font-size: 0.7rem;
+    }
+
+    .foot__profile h4{
+        font-size: 0.8rem;
     }
 }
