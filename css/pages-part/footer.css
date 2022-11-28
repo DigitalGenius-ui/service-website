@@ -1,0 +1,57 @@
+footer .foot__social{
+    background-color: var(--socialBg);
+    padding: 0.8rem 0 0.4rem 0;
+    position: relative;
+}
+
+.foot__social .social__icons .arrow__top{
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 10%;
+    width: 3rem;
+    background-color: var(--arrow);
+    cursor: pointer;
+    border: none;
+    font-size: 1.8rem;
+}
+
+.social__icons .arrow__top:hover{
+    background-color: var(--socialHover);
+}
+
+.social__icons .arrow__top span{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.7rem;
+}
+
+/* nav part  */
+.foot__profile h4{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--darkBlack);
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+.footer .copyright {
+    background-color: var(--copyRight);
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.copyright p{
+    color: var(--darkBlack);
+}
+
+@media(max-width:680px){
+    .foot__social .social__icons .arrow__top{
+        right: 5%;
+    }
+}

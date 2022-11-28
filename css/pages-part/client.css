@@ -42,6 +42,7 @@
     letter-spacing: 1px;
     font-size: 1.2rem;   
     position: relative;
+    color: var(--blackColor);
 }
 
 .client__contents h1::before{
@@ -59,10 +60,11 @@
     overflow: hidden;
 }
 
-.client__contents .client__slider p {
+.client__contents .client__slider .review{
     width: 80%;
     margin: 0 auto;
     line-height: 1.8rem;
+    color: var(--blackColor);
 }
 
 .client__slider .author{
@@ -70,6 +72,7 @@
     text-align: center;
     padding-top: 2rem;
     letter-spacing: 1px;
+    color: var(--darkBlack);
 }
 
 @media(max-width : 990px){
