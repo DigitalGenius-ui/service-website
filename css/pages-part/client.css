@@ -25,6 +25,7 @@
     background-color: transparent;
     border: none;
     color: var(--blackColor);
+    border: 1px solid red;
 }
 
 .slider__btn button i{

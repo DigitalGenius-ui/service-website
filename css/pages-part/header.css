@@ -101,11 +101,12 @@
 
 .naves .nav__title p{
     color: var(--darkBlack);
+    padding-bottom: 2rem;
 }
 
 .naves .nav__list{
     gap: 2rem;
-    padding-top: 2rem;
+    overflow: hidden;
 }
 
 .nav__list li{
