@@ -17,7 +17,7 @@
 
 
 ## Description
-This agency website id build using HTML, CSS3 and JavaScript. In this website user can see the details about the service provider. This project is build for youtube and teach the beginners the basic of web development. HTML is the structure of the website, css is the design and the functionalities are being handled by JavaScript and some libraries like slick slider and AOS is implemented.
+JavaScript, HTML5, and CSS3 were used to create the website for this company. The viewer can view the agnecy's details on this webpage. This project demonstrates the fundamentals of web programming and was created for YouTube. The website's structure is HTML, the design is CSS, and its functionalities are handled by JavaScript and a few libraries, including SlickSlider and AOS.
 
 
 
