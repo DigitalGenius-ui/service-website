@@ -100,3 +100,9 @@ body {
     background-position: 0 0;
   }
 }
+
+@media screen and (max-width: 761px) {
+  .loader h1 {
+    font-size: 2.5rem;
+  }
+}

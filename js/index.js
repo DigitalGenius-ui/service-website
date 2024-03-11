@@ -86,7 +86,7 @@ window.addEventListener("DOMContentLoaded", () => {
   let setTime = setTimeout(() => {
     loader.style.display = "none";
     // scroll  animation function
-    AOS.init();
+    AOS.init({ once: true });
   }, 3000);
 
   return setTime;
